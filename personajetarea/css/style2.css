@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hubballi&family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;300&family=Mulish:wght@200&display=swap');
+
+
+body{
+    font-family:'Crimson Pro', serif;
+    color: var(rgba(146, 34, 109, 0.61));
+}
+
+p{
+    text-align: justify;
+}
+
+#login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-help{
+    width: 40%;
+    
+}
+.form-login h1{
+    text-align:center ;
+}
+
+.form-login img{
+    color: var(#7e0778);
+    background-color: #9e8a9d;
+    padding: 1rem 0.8rem;
+    border-radius: 100%;
+    border: 4px solid var(violet);
+}
+.form-login{
+    margin-top: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 1px 1px 2px var(violet);
+    background-color: #7c517a;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-imput{
+    border: 10px solid var(rgb(10, 66, 35));
+    padding: 0.5rem;
+    outline: none;
+    background-color: antiquewhite;
+}
+
+.form-imput::placeholder{
+    font-size: 1.0rem;
+}
+
+.btn-pink,.btn-violet{
+    padding: 00.5rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-pink{
+    background-color: pink;
+}
+
+.btn-violet{
+    background-color: violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .boton {
+    width:120px ;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+ 
+.boton a{ 
+    margin: 20px 0 ;
+    text-decoration: none;
+    color: #ffffff;
+    }
+
+
+.boton:hover{
+    background-color: #0000ff;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 3s; */
+
